@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		393C7DE02BF93BDB00FF09D3 /* IbanScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C7DDF2BF93BDB00FF09D3 /* IbanScannerApp.swift */; };
-		393C7DE22BF93BDB00FF09D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C7DE12BF93BDB00FF09D3 /* ContentView.swift */; };
+		393C7DE22BF93BDB00FF09D3 /* AddBeneficiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C7DE12BF93BDB00FF09D3 /* AddBeneficiaryView.swift */; };
 		393C7DE42BF93BDD00FF09D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393C7DE32BF93BDD00FF09D3 /* Assets.xcassets */; };
 		393C7DE72BF93BDD00FF09D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393C7DE62BF93BDD00FF09D3 /* Preview Assets.xcassets */; };
 		393C7DF12BF93BDD00FF09D3 /* IbanScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C7DF02BF93BDD00FF09D3 /* IbanScannerTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		393C7DDC2BF93BDA00FF09D3 /* IbanScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IbanScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		393C7DDF2BF93BDB00FF09D3 /* IbanScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerApp.swift; sourceTree = "<group>"; };
-		393C7DE12BF93BDB00FF09D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		393C7DE12BF93BDB00FF09D3 /* AddBeneficiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBeneficiaryView.swift; sourceTree = "<group>"; };
 		393C7DE32BF93BDD00FF09D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		393C7DE62BF93BDD00FF09D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		393C7DEC2BF93BDD00FF09D3 /* IbanScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IbanScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				393C7DDF2BF93BDB00FF09D3 /* IbanScannerApp.swift */,
-				393C7DE12BF93BDB00FF09D3 /* ContentView.swift */,
+				393C7DE12BF93BDB00FF09D3 /* AddBeneficiaryView.swift */,
 				393C7DE32BF93BDD00FF09D3 /* Assets.xcassets */,
 				393C7DE52BF93BDD00FF09D3 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				393C7DE22BF93BDB00FF09D3 /* ContentView.swift in Sources */,
+				393C7DE22BF93BDB00FF09D3 /* AddBeneficiaryView.swift in Sources */,
 				393C7DE02BF93BDB00FF09D3 /* IbanScannerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
