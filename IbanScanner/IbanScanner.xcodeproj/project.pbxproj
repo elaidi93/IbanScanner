@@ -7,24 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391399C32BF9875E002CA77F /* ValidateIbanSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391399C22BF9875E002CA77F /* ValidateIbanSheet.swift */; };
+		391399CD2BFBE3B7002CA77F /* IbanScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391399CC2BFBE3B7002CA77F /* IbanScannerViewModel.swift */; };
+		391399D02BFBE41D002CA77F /* IbanScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391399CF2BFBE41D002CA77F /* IbanScannerViewController.swift */; };
+		391399D22BFBED90002CA77F /* CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391399D12BFBED90002CA77F /* CoordinatorTests.swift */; };
+		391399D42BFBEDC8002CA77F /* IbanScannerViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391399D32BFBEDC8002CA77F /* IbanScannerViewControllerTests.swift */; };
 		393C7DE02BF93BDB00FF09D3 /* IbanScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C7DDF2BF93BDB00FF09D3 /* IbanScannerApp.swift */; };
 		393C7DE22BF93BDB00FF09D3 /* AddBeneficiaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C7DE12BF93BDB00FF09D3 /* AddBeneficiaryView.swift */; };
 		393C7DE42BF93BDD00FF09D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393C7DE32BF93BDD00FF09D3 /* Assets.xcassets */; };
 		393C7DE72BF93BDD00FF09D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393C7DE62BF93BDD00FF09D3 /* Preview Assets.xcassets */; };
 		393C7DF12BF93BDD00FF09D3 /* IbanScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C7DF02BF93BDD00FF09D3 /* IbanScannerTests.swift */; };
-		393C7DFB2BF93BDD00FF09D3 /* IbanScannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C7DFA2BF93BDD00FF09D3 /* IbanScannerUITests.swift */; };
-		393C7DFD2BF93BDD00FF09D3 /* IbanScannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393C7DFC2BF93BDD00FF09D3 /* IbanScannerUITestsLaunchTests.swift */; };
+		394551222BF9686500105829 /* IbanScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394551212BF9686500105829 /* IbanScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		393C7DED2BF93BDD00FF09D3 /* PBXContainerItemProxy */ = {
+		391399DF2BFBEE49002CA77F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 393C7DD42BF93BDA00FF09D3 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 393C7DDB2BF93BDA00FF09D3;
 			remoteInfo = IbanScanner;
 		};
-		393C7DF72BF93BDD00FF09D3 /* PBXContainerItemProxy */ = {
+		393C7DED2BF93BDD00FF09D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 393C7DD42BF93BDA00FF09D3 /* Project object */;
 			proxyType = 1;
@@ -34,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		391399C22BF9875E002CA77F /* ValidateIbanSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateIbanSheet.swift; sourceTree = "<group>"; };
+		391399CC2BFBE3B7002CA77F /* IbanScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerViewModel.swift; sourceTree = "<group>"; };
+		391399CF2BFBE41D002CA77F /* IbanScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerViewController.swift; sourceTree = "<group>"; };
+		391399D12BFBED90002CA77F /* CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorTests.swift; sourceTree = "<group>"; };
+		391399D32BFBEDC8002CA77F /* IbanScannerViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerViewControllerTests.swift; sourceTree = "<group>"; };
+		391399D92BFBEE49002CA77F /* IbanScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IbanScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		393C7DDC2BF93BDA00FF09D3 /* IbanScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IbanScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		393C7DDF2BF93BDB00FF09D3 /* IbanScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerApp.swift; sourceTree = "<group>"; };
 		393C7DE12BF93BDB00FF09D3 /* AddBeneficiaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBeneficiaryView.swift; sourceTree = "<group>"; };
@@ -41,12 +51,17 @@
 		393C7DE62BF93BDD00FF09D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		393C7DEC2BF93BDD00FF09D3 /* IbanScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IbanScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		393C7DF02BF93BDD00FF09D3 /* IbanScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerTests.swift; sourceTree = "<group>"; };
-		393C7DF62BF93BDD00FF09D3 /* IbanScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IbanScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		393C7DFA2BF93BDD00FF09D3 /* IbanScannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerUITests.swift; sourceTree = "<group>"; };
-		393C7DFC2BF93BDD00FF09D3 /* IbanScannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		394551212BF9686500105829 /* IbanScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbanScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		391399D62BFBEE49002CA77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		393C7DD92BF93BDA00FF09D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,22 +76,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		393C7DF32BF93BDD00FF09D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		391399C82BFBE34E002CA77F /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				393C7DE12BF93BDB00FF09D3 /* AddBeneficiaryView.swift */,
+				394551212BF9686500105829 /* IbanScannerView.swift */,
+				391399C22BF9875E002CA77F /* ValidateIbanSheet.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		391399C92BFBE35D002CA77F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				393C7DE52BF93BDD00FF09D3 /* Preview Content */,
+				393C7DDF2BF93BDB00FF09D3 /* IbanScannerApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		391399CA2BFBE36E002CA77F /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				393C7DE32BF93BDD00FF09D3 /* Assets.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		391399CB2BFBE39A002CA77F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				391399CC2BFBE3B7002CA77F /* IbanScannerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		391399CE2BFBE3F3002CA77F /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				391399CF2BFBE41D002CA77F /* IbanScannerViewController.swift */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
 		393C7DD32BF93BDA00FF09D3 = {
 			isa = PBXGroup;
 			children = (
 				393C7DDE2BF93BDB00FF09D3 /* IbanScanner */,
 				393C7DEF2BF93BDD00FF09D3 /* IbanScannerTests */,
-				393C7DF92BF93BDD00FF09D3 /* IbanScannerUITests */,
 				393C7DDD2BF93BDA00FF09D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +136,7 @@
 			children = (
 				393C7DDC2BF93BDA00FF09D3 /* IbanScanner.app */,
 				393C7DEC2BF93BDD00FF09D3 /* IbanScannerTests.xctest */,
-				393C7DF62BF93BDD00FF09D3 /* IbanScannerUITests.xctest */,
+				391399D92BFBEE49002CA77F /* IbanScannerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +144,11 @@
 		393C7DDE2BF93BDB00FF09D3 /* IbanScanner */ = {
 			isa = PBXGroup;
 			children = (
-				393C7DDF2BF93BDB00FF09D3 /* IbanScannerApp.swift */,
-				393C7DE12BF93BDB00FF09D3 /* AddBeneficiaryView.swift */,
-				393C7DE32BF93BDD00FF09D3 /* Assets.xcassets */,
-				393C7DE52BF93BDD00FF09D3 /* Preview Content */,
+				391399CE2BFBE3F3002CA77F /* Scanner */,
+				391399CB2BFBE39A002CA77F /* ViewModel */,
+				391399CA2BFBE36E002CA77F /* Ressources */,
+				391399C82BFBE34E002CA77F /* Screen */,
+				391399C92BFBE35D002CA77F /* App */,
 			);
 			path = IbanScanner;
 			sourceTree = "<group>";
@@ -114,22 +165,33 @@
 			isa = PBXGroup;
 			children = (
 				393C7DF02BF93BDD00FF09D3 /* IbanScannerTests.swift */,
+				391399D12BFBED90002CA77F /* CoordinatorTests.swift */,
+				391399D32BFBEDC8002CA77F /* IbanScannerViewControllerTests.swift */,
 			);
 			path = IbanScannerTests;
-			sourceTree = "<group>";
-		};
-		393C7DF92BF93BDD00FF09D3 /* IbanScannerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				393C7DFA2BF93BDD00FF09D3 /* IbanScannerUITests.swift */,
-				393C7DFC2BF93BDD00FF09D3 /* IbanScannerUITestsLaunchTests.swift */,
-			);
-			path = IbanScannerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		391399D82BFBEE49002CA77F /* IbanScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 391399E12BFBEE49002CA77F /* Build configuration list for PBXNativeTarget "IbanScannerUITests" */;
+			buildPhases = (
+				391399D52BFBEE49002CA77F /* Sources */,
+				391399D62BFBEE49002CA77F /* Frameworks */,
+				391399D72BFBEE49002CA77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				391399E02BFBEE49002CA77F /* PBXTargetDependency */,
+			);
+			name = IbanScannerUITests;
+			productName = IbanScannerUITests;
+			productReference = 391399D92BFBEE49002CA77F /* IbanScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		393C7DDB2BF93BDA00FF09D3 /* IbanScanner */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 393C7E002BF93BDD00FF09D3 /* Build configuration list for PBXNativeTarget "IbanScanner" */;
@@ -165,24 +227,6 @@
 			productReference = 393C7DEC2BF93BDD00FF09D3 /* IbanScannerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		393C7DF52BF93BDD00FF09D3 /* IbanScannerUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 393C7E062BF93BDD00FF09D3 /* Build configuration list for PBXNativeTarget "IbanScannerUITests" */;
-			buildPhases = (
-				393C7DF22BF93BDD00FF09D3 /* Sources */,
-				393C7DF32BF93BDD00FF09D3 /* Frameworks */,
-				393C7DF42BF93BDD00FF09D3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				393C7DF82BF93BDD00FF09D3 /* PBXTargetDependency */,
-			);
-			name = IbanScannerUITests;
-			productName = IbanScannerUITests;
-			productReference = 393C7DF62BF93BDD00FF09D3 /* IbanScannerUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -193,14 +237,14 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
+					391399D82BFBEE49002CA77F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 393C7DDB2BF93BDA00FF09D3;
+					};
 					393C7DDB2BF93BDA00FF09D3 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 					393C7DEB2BF93BDD00FF09D3 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 393C7DDB2BF93BDA00FF09D3;
-					};
-					393C7DF52BF93BDD00FF09D3 = {
 						CreatedOnToolsVersion = 15.4;
 						TestTargetID = 393C7DDB2BF93BDA00FF09D3;
 					};
@@ -221,12 +265,19 @@
 			targets = (
 				393C7DDB2BF93BDA00FF09D3 /* IbanScanner */,
 				393C7DEB2BF93BDD00FF09D3 /* IbanScannerTests */,
-				393C7DF52BF93BDD00FF09D3 /* IbanScannerUITests */,
+				391399D82BFBEE49002CA77F /* IbanScannerUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		391399D72BFBEE49002CA77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		393C7DDA2BF93BDA00FF09D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -243,22 +294,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		393C7DF42BF93BDD00FF09D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		391399D52BFBEE49002CA77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
 		393C7DD82BF93BDA00FF09D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391399C32BF9875E002CA77F /* ValidateIbanSheet.swift in Sources */,
+				391399D02BFBE41D002CA77F /* IbanScannerViewController.swift in Sources */,
 				393C7DE22BF93BDB00FF09D3 /* AddBeneficiaryView.swift in Sources */,
 				393C7DE02BF93BDB00FF09D3 /* IbanScannerApp.swift in Sources */,
+				394551222BF9686500105829 /* IbanScannerView.swift in Sources */,
+				391399CD2BFBE3B7002CA77F /* IbanScannerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,35 +321,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391399D42BFBEDC8002CA77F /* IbanScannerViewControllerTests.swift in Sources */,
+				391399D22BFBED90002CA77F /* CoordinatorTests.swift in Sources */,
 				393C7DF12BF93BDD00FF09D3 /* IbanScannerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		393C7DF22BF93BDD00FF09D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				393C7DFB2BF93BDD00FF09D3 /* IbanScannerUITests.swift in Sources */,
-				393C7DFD2BF93BDD00FF09D3 /* IbanScannerUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		391399E02BFBEE49002CA77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 393C7DDB2BF93BDA00FF09D3 /* IbanScanner */;
+			targetProxy = 391399DF2BFBEE49002CA77F /* PBXContainerItemProxy */;
+		};
 		393C7DEE2BF93BDD00FF09D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 393C7DDB2BF93BDA00FF09D3 /* IbanScanner */;
 			targetProxy = 393C7DED2BF93BDD00FF09D3 /* PBXContainerItemProxy */;
 		};
-		393C7DF82BF93BDD00FF09D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 393C7DDB2BF93BDA00FF09D3 /* IbanScanner */;
-			targetProxy = 393C7DF72BF93BDD00FF09D3 /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		391399E22BFBEE49002CA77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SAAQGFL8P6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.hamzaelaidi.IbanScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IbanScanner;
+			};
+			name = Debug;
+		};
+		391399E32BFBEE49002CA77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SAAQGFL8P6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.hamzaelaidi.IbanScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IbanScanner;
+			};
+			name = Release;
+		};
 		393C7DFE2BF93BDD00FF09D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -421,10 +503,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IbanScanner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"IbanScanner/App/Preview Content\"";
 				DEVELOPMENT_TEAM = SAAQGFL8P6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow App to use your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,10 +533,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"IbanScanner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"IbanScanner/App/Preview Content\"";
 				DEVELOPMENT_TEAM = SAAQGFL8P6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Allow App to use your camera";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -512,45 +596,18 @@
 			};
 			name = Release;
 		};
-		393C7E072BF93BDD00FF09D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SAAQGFL8P6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = come.hamzaelaidi.IbanScannerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IbanScanner;
-			};
-			name = Debug;
-		};
-		393C7E082BF93BDD00FF09D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SAAQGFL8P6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = come.hamzaelaidi.IbanScannerUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = IbanScanner;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		391399E12BFBEE49002CA77F /* Build configuration list for PBXNativeTarget "IbanScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				391399E22BFBEE49002CA77F /* Debug */,
+				391399E32BFBEE49002CA77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		393C7DD72BF93BDA00FF09D3 /* Build configuration list for PBXProject "IbanScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -574,15 +631,6 @@
 			buildConfigurations = (
 				393C7E042BF93BDD00FF09D3 /* Debug */,
 				393C7E052BF93BDD00FF09D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		393C7E062BF93BDD00FF09D3 /* Build configuration list for PBXNativeTarget "IbanScannerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				393C7E072BF93BDD00FF09D3 /* Debug */,
-				393C7E082BF93BDD00FF09D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
