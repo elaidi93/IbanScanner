@@ -2,6 +2,11 @@
 
 Le Scanner IBAN est une application iOS basée sur SwiftUI développée pour un entretien technique. Elle permet aux utilisateurs de numériser, d'importer ou de saisir manuellement des Numéros de Compte Bancaire International (IBAN).
 
+# ScreenShots
+
+| ----- |  ---- |
+| <img src="https://github.com/elaidi93/IbanScanner/assets/17202295/ce63b97c-944a-415f-9648-3031b68b886b" /> | <img src="https://github.com/elaidi93/IbanScanner/assets/17202295/24af5a31-d5f5-4a0b-a9ce-4a2b46fd8666" /> | <img src="https://github.com/elaidi93/IbanScanner/assets/17202295/c004e6ca-891a-405c-94a4-0d331037c674" /> |
+
 ## Aperçu
 
 L'application Scanner IBAN a été créée dans le cadre d'un processus d'entretien technique pour démontrer la maîtrise de SwiftUI et Combine la clean archi. Elle met en avant la capacité à construire une interface conviviale pour la numérisation et la validation des IBAN, offrant une expérience utilisateur fluide.
