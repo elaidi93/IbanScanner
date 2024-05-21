@@ -11,7 +11,7 @@ import Vision
 import Combine
 
 struct IbanScannerView: View {
-    @StateObject var viewModel = IbanScannerViewModel()
+    @StateObject var viewModel: IbanScannerViewModel = .init()
     @Binding var isScannerPresented: Bool
     @Binding var iban: String
     
@@ -25,7 +25,7 @@ struct IbanScannerView: View {
                 Rectangle()
                     .frame(height: 60)
                     .frame(maxWidth: .infinity)
-                    .blendMode(.destinationOut)
+                    .blendMode(.color)
                     .overlay(RoundedRectangle(cornerRadius: 6)
                         .stroke(Color("BorderColor"), lineWidth: 1))
                     .padding(.horizontal)
@@ -38,7 +38,7 @@ struct IbanScannerView: View {
                 .onDisappear {
                     viewModel.resetScanner()
                     if !viewModel.scannedIban.isEmpty {
-                        isScannerPresented = viewModel.isSheetPresented
+                        isScannerPresented = false
                         iban = viewModel.scannedIban
                     }
                 }
