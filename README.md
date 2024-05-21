@@ -4,7 +4,8 @@ Le Scanner IBAN est une application iOS basée sur SwiftUI développée pour un 
 
 # ScreenShots
 
-| ----- |  ---- |  --- |
+| Ecran 1  | Ecran 2 | Ecran 3 |
+| ----- |  ---- |   --- |
 | <img src="https://github.com/elaidi93/IbanScanner/assets/17202295/ce63b97c-944a-415f-9648-3031b68b886b" /> | <img src="https://github.com/elaidi93/IbanScanner/assets/17202295/24af5a31-d5f5-4a0b-a9ce-4a2b46fd8666" /> | <img src="https://github.com/elaidi93/IbanScanner/assets/17202295/c004e6ca-891a-405c-94a4-0d331037c674" /> |
 
 ## Aperçu
