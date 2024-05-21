@@ -59,13 +59,12 @@ struct AddBeneficiaryView: View {
                         .stroke(Color("BorderColor"))
                 )
                 .tint(Color("BorderColor"))
-                .sheet(isPresented: $isShowingDetailView,
-                       content: {
+                .sheet(isPresented: $isShowingDetailView) {
                     IbanScannerView(
                         isScannerPresented: $isShowingDetailView,
                         iban: $ibanInput
                     )
-                })
+                }
             }
             .padding()
             .background(.black)

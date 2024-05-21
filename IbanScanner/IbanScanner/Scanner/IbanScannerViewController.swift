@@ -63,7 +63,6 @@ class Coordinator: NSObject, DataScannerViewControllerDelegate {
         switch item {
         case .text(let text):
             if isIBAN(text.transcript) {
-                
                 parent.scannerViewController.stopScanning()
                 parent.viewModel?.scannedIban = text.transcript
                 parent.viewModel?.isSheetPresented = true
