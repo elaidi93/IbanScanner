@@ -28,7 +28,7 @@ struct ErrorTextfield: View {
                 Spacer()
                 
                 Divider()
-                    .overlay(!showError && text.isEmpty ? .white : .red)
+                    .overlay(!showError ? .white : .red)
             }
             .frame(height: 30)
             .padding()
