@@ -1,3 +1,11 @@
+//
+//  AddBeneficiaryView.swift
+//  IbanScanner
+//
+//  Created by hamza el aidi on 25/10/2024.
+//
+
+
 import SwiftUI
 
 struct AddBeneficiaryView: View {
@@ -14,10 +22,7 @@ struct AddBeneficiaryView: View {
                     .foregroundStyle(.white)
                     .font(.subheadline)
                 
-//                VStack {
-
-                
-                CustomTextField(
+                ErrorTextfield(
                     placeholder: "FR76 XXXX",
                     text: $ibanInput,
                     isValid: $ibanInput.wrappedValue.isValidFrenchIBAN,
